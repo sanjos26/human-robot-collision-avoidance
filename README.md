@@ -20,6 +20,13 @@
 | Test scenarios | Static, walking, partial occlusion |
 
 ---
+## Validation Methodology
+- Defined pass/fail criteria: 100% collision avoidance, ≥275mm clearance, <200ms latency
+- Validated across 50 trials spanning 3 scenario types: static, walking, partial occlusion
+- Metric logging and visualization pipeline built in Python for performance analysis
+
+
+---
 
 ## System Architecture
 ```
